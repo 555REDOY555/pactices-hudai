@@ -122,3 +122,18 @@ height: 104px;
     background-color:#ff4a5f52 ;
     
 }
+/* media quaries */
+/* mobail */
+@media only screen and (max-width:688px) {
+    .containar{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        align-items: center;
+    }
+    
+
+    
+}
