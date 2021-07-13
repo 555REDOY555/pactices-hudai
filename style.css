@@ -139,8 +139,13 @@ height: 104px;
 
     
     .blogs, .courses{
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+    }
+    .bolg{
+        display: flex;
+        flex-direction: column;
     }
    
     
